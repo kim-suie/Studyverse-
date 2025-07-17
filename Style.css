@@ -28,6 +28,17 @@
       justify-content: center;
       text-align: center;
     }
+   /* to improve responsiveness */
+    @media(min-height:768px){
+      .banner1{
+        height: 60vh;
+      }
+    }
+    @media(min-height:1024px){
+      .banner1{
+        height: 50vh;
+      }
+        
     .overlay {
       position: absolute;
       top: 0;
