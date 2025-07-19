@@ -28,6 +28,11 @@
       justify-content: center;
       text-align: center;
     }
+ @media  only screen and (min-width:768px) and (max-width:3550px) {
+        .banner1{
+            height:60vh;
+        }
+    }
     .overlay {
       position: absolute;
       top: 0;
@@ -128,6 +133,12 @@
       border: none;
       border-radius: 4px;
     }
+ @media  only screen and (min-width:300px) and (max-width:355px) {
+        .cta input{
+            width: 248px;
+        }
+    }
+
     /*home page styling finish*/
     
     
